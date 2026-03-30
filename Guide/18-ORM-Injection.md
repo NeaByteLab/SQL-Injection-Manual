@@ -270,16 +270,14 @@ context.Database.ExecuteSqlRaw(
 
 ### Code Review Checklist
 
-```
-□ Search for string concatenation in ORM queries
-□ Check usage of .raw(), .native(), .extra() methods
-□ Review native SQL implementations
-□ Verify all user inputs use parameterized queries
-□ Check for SQL literals in ORM methods
-□ Review stored procedure calls with dynamic parameters
-□ Examine ORDER BY and GROUP BY clauses
-□ Check for HQL/SQL concatenation in criteria builders
-```
+- [ ] Search for string concatenation in ORM queries
+- [ ] Check usage of .raw(), .native(), .extra() methods
+- [ ] Review native SQL implementations
+- [ ] Verify all user inputs use parameterized queries
+- [ ] Check for SQL literals in ORM methods
+- [ ] Review stored procedure calls with dynamic parameters
+- [ ] Examine ORDER BY and GROUP BY clauses
+- [ ] Check for HQL/SQL concatenation in criteria builders
 
 ### Static Analysis Patterns
 
@@ -288,10 +286,10 @@ context.Database.ExecuteSqlRaw(
 ```python
 orm_dangerous_patterns = [
     r'createQuery\s*\(\s*["\'].*\{.*?\}',     # HQL concatenation
-    r'execute\s*\(\s*["\'].*\$\{',           # Raw SQL with variables
-    r'\.extra\s*\(\s*where.*=.*\$',          # Django .extra()
+    r'execute\s*\(\s*["\'].*\$\{',            # Raw SQL with variables
+    r'\.extra\s*\(\s*where.*=.*\$',           # Django .extra()
     r'query\s*\(\s*[`"].*\$\{',               # Sequelize concatenation
-    r'FromSqlRaw.*\$".*\{',                    # EF Core raw SQL
+    r'FromSqlRaw.*\$".*\{',                   # EF Core raw SQL
     r'sqlRestriction.*\'.*\+',                # Hibernate criteria
     r'\.raw\s*\(\s*["\'].*\+',                # Raw SQL building
     r'ORDER\s+BY.*\$\{',                      # Dynamic ORDER BY

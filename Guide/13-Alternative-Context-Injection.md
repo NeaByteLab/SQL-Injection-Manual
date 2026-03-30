@@ -500,18 +500,16 @@ Cookie: user=admin'; role=superuser'--
 
 Checklist for discovery:
 
-```
-□ API endpoints accepting JSON
-□ SOAP/XML web services
-□ GraphQL endpoints (convert to SQL)
-□ REST endpoints with complex payloads
-□ WebSocket messages
-□ File upload metadata
-□ HTTP headers processed by application
-□ Cookie values used in queries
-□ Session storage mechanisms
-□ LocalStorage/SessionStorage synced to backend
-```
+- [ ] API endpoints accepting JSON
+- [ ] SOAP/XML web services
+- [ ] GraphQL endpoints (convert to SQL)
+- [ ] REST endpoints with complex payloads
+- [ ] WebSocket messages
+- [ ] File upload metadata
+- [ ] HTTP headers processed by application
+- [ ] Cookie values used in queries
+- [ ] Session storage mechanisms
+- [ ] LocalStorage/SessionStorage synced to backend
 
 ### Step 2: Craft Context-Specific Payloads
 

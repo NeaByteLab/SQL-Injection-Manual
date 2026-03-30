@@ -226,16 +226,14 @@ flowchart TD
 
 Look for features that store user input:
 
-```
-□ User registration
-□ Profile updates
-□ Comments/reviews
-□ Contact forms with database storage
-□ File uploads with metadata storage
-□ Search history logging
-□ Audit logs with user input
-□ Configuration settings stored in DB
-```
+- [ ] User registration
+- [ ] Profile updates
+- [ ] Comments/reviews
+- [ ] Contact forms with database storage
+- [ ] File uploads with metadata storage
+- [ ] Search history logging
+- [ ] Audit logs with user input
+- [ ] Configuration settings stored in DB
 
 ### Step 2: Test Storage with Safe Payloads
 
@@ -259,14 +257,12 @@ SELECT username, email FROM users WHERE id = [your_test_id]
 
 Identify functions that retrieve and use stored data:
 
-```
-□ Admin user management
-□ User search functionality
-□ Report generation
-□ Analytics/Statistics
-□ Data export features
-□ Email notifications using stored data
-```
+- [ ] Admin user management
+- [ ] User search functionality
+- [ ] Report generation
+- [ ] Analytics/Statistics
+- [ ] Data export features
+- [ ] Email notifications using stored data
 
 ### Step 4: Monitor for Execution
 
