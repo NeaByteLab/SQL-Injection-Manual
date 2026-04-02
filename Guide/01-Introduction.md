@@ -447,13 +447,8 @@ Determine what each payload does:
 5. **Always follow the methodology**: Detect → Identify → Exploit → Extract
 6. **Practice on isolated lab environments** - never test on production systems
 
-## Next Steps
+## Next Step
 
-Now that you understand the fundamentals:
-
-1. Continue to [02-Detection-Methods.md](02-Detection-Methods.md) to learn systematic detection approaches
-2. Set up a practice lab using DVWA or similar
-3. Test the basic payloads from this chapter
-4. Keep notes on which techniques work against different defenses
+Continue to [02 - Detection Methods](02-Detection-Methods.md) to learn systematic detection approaches. 4. Keep notes on which techniques work against different defenses
 
 Remember: The key to mastering SQL injection is **consistent practice** in safe, authorized environments.

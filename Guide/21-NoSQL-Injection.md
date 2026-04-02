@@ -660,10 +660,6 @@ GET /cache?key=mykey; KEYS *;
 | **Code Execution** | xp_cmdshell, etc.   | $where, Lua scripts    |
 | **Prevention**     | Prepared statements | Proper driver usage    |
 
-## Next Steps
+## Next Step
 
-NoSQL injection demonstrates that injection vulnerabilities exist across all database types. The core lesson: **never trust user input**, regardless of the database technology.
-
-Continue practicing with real NoSQL databases in isolated lab environments to understand the practical differences between SQL and NoSQL injection techniques.
-
-Review the [22 - Cheat Sheet](22-Cheat-Sheet.md) for quick reference to all SQL injection techniques covered in this curriculum.
+Continue to [22 - Cheat Sheet](22-Cheat-Sheet.md) for quick reference to all SQL injection techniques covered in this curriculum.

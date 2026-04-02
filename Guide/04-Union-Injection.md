@@ -323,4 +323,4 @@ Extract:
 
 ## Next Step
 
-Continue to [08 - Blind Injection](08-Blind-Injection.md) for techniques when union is not available.
+Continue to [05 - Database Fingerprinting](05-Database-Fingerprinting.md) to identify target characteristics.

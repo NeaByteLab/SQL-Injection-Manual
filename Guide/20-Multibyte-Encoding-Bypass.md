@@ -419,6 +419,6 @@ This vulnerability primarily affects:
 
 Modern applications using UTF-8 consistently and prepared statements are not vulnerable to this specific attack vector.
 
-## Next Steps
+## Next Step
 
 Continue to [21 - NoSQL Injection](21-NoSQL-Injection.md) to learn about non-relational database injection techniques.

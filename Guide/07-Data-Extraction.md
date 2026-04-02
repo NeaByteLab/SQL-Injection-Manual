@@ -306,4 +306,4 @@ Table `logs` has 10,000+ rows. Design strategy to extract in manageable chunks.
 
 ## Next Step
 
-Continue to [09 - Filter Evasion](09-Filter-Evasion.md) to bypass security controls.
+Continue to [08 - Blind Injection](08-Blind-Injection.md) for techniques when direct data extraction is not available.

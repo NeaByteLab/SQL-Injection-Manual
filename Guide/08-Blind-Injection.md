@@ -317,4 +317,4 @@ Implement binary search algorithm to extract table names 3x faster.
 
 ## Next Step
 
-Continue to [05 - Database Fingerprinting](05-Database-Fingerprinting.md) to identify target characteristics.
+Continue to [09 - Filter Evasion](09-Filter-Evasion.md) for techniques when union is not available.

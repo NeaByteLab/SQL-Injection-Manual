@@ -420,6 +420,6 @@ Content-Security-Policy: default-src 'self'; script-src 'none'
 4. **Defense requires** context-aware encoding
 5. **Efficiency gain** - Reduce testing requests significantly
 
-## Next Steps
+## Next Step
 
 Continue to [20 - Multibyte Encoding Bypass](20-Multibyte-Encoding-Bypass.md) to learn about character set-based bypasses.

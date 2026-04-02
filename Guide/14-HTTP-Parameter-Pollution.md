@@ -248,6 +248,6 @@ GET /search?filter[]=active&filter[]=' UNION SELECT * FROM admin--
 4. **Concatenation can create injection opportunities**
 5. **Consistent parameter handling prevents HPP**
 
-## Next Steps
+## Next Step
 
 Continue to [15 - Heavy Query DoS](15-Heavy-Query-DoS.md) to learn about resource exhaustion attacks.

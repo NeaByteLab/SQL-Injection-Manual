@@ -410,4 +410,4 @@ $stmt->execute([$user_id])
 
 ## Next Step
 
-Review [22 - Cheat Sheet](22-Cheat-Sheet.md) for quick reference of all techniques.
+Continue to [12 - Second-Order Injection](12-Second-Order-Injection.md) for stored payload attacks.

@@ -411,6 +411,6 @@ def verify_jwt(token):
 4. **Blind techniques work** - No visible output needed
 5. **Input validation on KID** - Alphanumeric only
 
-## Next Steps
+## Next Step
 
 Continue to [17 - GraphQL SQL Injection](17-GraphQL-SQL-Injection.md) to learn about GraphQL API vulnerabilities.

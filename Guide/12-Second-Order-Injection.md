@@ -609,6 +609,6 @@ Store time-based payload and detect via admin page response time
 5. **Trust no data** - even from your own database
 6. **Input validation needed at both storage AND retrieval points**
 
-## Next Steps
+## Next Step
 
-Continue to [22 - Cheat Sheet](22-Cheat-Sheet.md) for quick reference payloads, or review previous guides for first-order technique details.
+Continue to [13 - Alternative Context Injection](13-Alternative-Context-Injection.md) for JSON, XML, and header-based injection.

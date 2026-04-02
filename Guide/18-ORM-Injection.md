@@ -567,6 +567,6 @@ GET /api/users?order=(SELECT pg_sleep(5))
 4. **Native queries require scrutiny** - Extra() and raw() are risky
 5. **Input validation before ORM** - Defense in depth
 
-## Next Steps
+## Next Step
 
-Review the full SQL injection curriculum and practice these ORM bypass techniques in isolated lab environments. Remember that ORM injection often requires access to source code or detailed error messages to identify vulnerable patterns.
+Continue to [19 - Polyglot Payloads](19-Polyglot-Payloads.md) for multi-database attack techniques.

@@ -517,6 +517,6 @@ query {
 4. **Input validation** must happen at resolver level
 5. **ORM/parameterized queries** prevent injection in resolvers
 
-## Next Steps
+## Next Step
 
 Continue to [18 - ORM Injection](18-ORM-Injection.md) to learn about ORM bypass techniques.

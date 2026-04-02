@@ -308,6 +308,6 @@ SELECT * FROM t;
 4. **Query timeouts** are essential defense
 5. **Resource quotas** limit blast radius
 
-## Next Steps
+## Next Step
 
 Continue to [16 - JWT SQL Injection](16-JWT-SQL-Injection.md) to learn about token-based attacks.

@@ -790,6 +790,6 @@ def test_json_injection(url):
 4. **Second-order applies to alternative contexts** - stored header/cookie values can trigger later
 5. **Prevention requires context awareness** - different sanitization for different formats
 
-## Next Steps
+## Next Step
 
-Continue to [12 - Second-Order Injection](12-Second-Order-Injection.md) to understand how alternative context injection combines with stored injection for delayed execution attacks.
+Continue to [14 - HTTP Parameter Pollution](14-HTTP-Parameter-Pollution.md) to learn how parameter handling can create new injection vectors.
